@@ -2,7 +2,7 @@
 
 Write-Host "URL: $url"
 $pipeline = Invoke-RestMethod -Uri $url -Method Get -Headers @{
-    Authorization = "tvwcsk43dnqc3xkpjewh6u6k2exromwj6bnkkym4rw3yzw7hbu2a"
+    Authorization = "*******"
 }
 Write-Host "Pipeline = $($pipeline | ConvertTo-Json -Depth 100)"
 

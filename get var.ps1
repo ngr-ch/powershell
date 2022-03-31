@@ -6,7 +6,7 @@ $url_endpoint = "_apis/distributedtask/variablegroups?api-version=6.0-preview.2"
 $url = $url_base + $url_endpoint
 
 #Generate PAT
-$Personal_Access_Token= "tvwcsk43dnqc3xkpjewh6u6k2exromwj6bnkkym4rw3yzw7hbu2a"
+$Personal_Access_Token= "****************"
 $user = ""
 $token = [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes(("{0}:{1}" -f $user, $Personal_Access_Token)))
 $header = @{authorization = "Basic $token"}
